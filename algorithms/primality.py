@@ -1,6 +1,6 @@
 from random import randrange
-from .modular import jacobi
-from .util import descend, xxrange
+from modular import jacobi
+from util import descend, xxrange
 
 def solovayStrassen(n, a = None, trace = False, **kargs):
     """

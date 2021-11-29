@@ -1,5 +1,5 @@
 from random import randrange
-from .euclidean import inverse
+from euclidean import inverse
 
 def crt(s):
     """
